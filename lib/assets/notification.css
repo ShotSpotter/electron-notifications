@@ -1,13 +1,13 @@
 html, body {
   overflow: hidden;
   background: rgba(0, 0, 0, 0);
-  color: #fff;
+  color: black;
   margin: 0;
   padding: 0;
 }
 
 a {
-  color: #fff;
+  color: black;
 }
 
 #notification {
@@ -16,7 +16,8 @@ a {
   margin: 0;
   position: relative;
   font-family: Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(rgba(120, 119, 119, 0.95), rgba(75, 74, 74, 0.95));
+  /*background-image: linear-gradient(rgba(120, 119, 119, 0.95), rgba(75, 74, 74, 0.95)); */
+  background-color: white;
   border: 1px solid rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
   -webkit-app-region: drag;
@@ -29,13 +30,10 @@ a {
   height: 160px;
 }
 #notification .icon {
-  width: 90px;
-  height: 80px;
   float: left;
 }
 #notification .icon img {
-  padding: 10px 15px 0 15px;
-  width: 60px;
+  width: 80px;
 }
 #notification.actions {
   -webkit-app-region: no-drag;
@@ -50,15 +48,16 @@ a {
   -webkit-app-region: drag;
 }
 #notification.actions .message {
-  width: 205px;
+  width: 305px;
 }
 #notification.vertical.actions .message {
-  width: 308px;
+  width: 305px;
 }
 #notification .message {
   height: 80px;
-  width: 310px;
+  width: 305px;
   float: left;
+  padding-left: 10px;
   text-overflow: clip;
   white-space: nowrap;
   overflow: hidden;
@@ -76,19 +75,23 @@ a {
   padding: 30px;
 }
 #notification .message h2 {
-  padding: 20px 0 0 0px;
+  padding: 8px 0 0 0px;
   margin: 0 0 5px;
-  font: bold 18px Myriad, Helvetica, Arial, sans-serif;
+  font: bold 16px Myriad, Helvetica, Arial, sans-serif;
 }
 #notification .message p {
   padding: 0;
   margin: 0;
   font: bold 13px Myriad, Helvetica, Arial, sans-serif;
   font-weight: normal;
+  white-space: pre-wrap;
 }
 #notification #buttons {
+  display: none;
+  /*
   float: right;
   position: relative;
+  */
 }
 #notification.horizontal #buttons {
   border-left: 1px solid black;
