@@ -18,7 +18,7 @@
     "terminal-notifier",
     "notify"
   ],
-  "repository": "git@github.com:blainesch/electron-notifications.git",
+  "repository": "git@github.com:ShotSpotter/electron-notifications.git#sst",
   "author": "Blaine Schmeisser",
   "license": "MIT",
   "standard": {
