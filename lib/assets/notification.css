@@ -18,11 +18,14 @@ a {
   margin: 0;
   position: relative;
   font-family: Helvetica, Arial, sans-serif;
-  /*background-image: linear-gradient(rgba(120, 119, 119, 0.95), rgba(75, 74, 74, 0.95)); */
+  /*
+  background-image: linear-gradient(rgba(120, 119, 119, 0.95), rgba(75, 74, 74, 0.95)); 
   background-color: white;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  */
   box-sizing: border-box;
-  -webkit-app-region: drag;
+  /* -webkit-app-region: drag;
+  */
   -webkit-user-select: none;
 }
 #notification.vertical.single {
@@ -37,6 +40,7 @@ a {
 #notification .icon img {
   width: 80px;
 }
+/*
 #notification.actions {
   -webkit-app-region: no-drag;
 }
@@ -59,14 +63,13 @@ a {
 */
 #notification .message {
   height: 100px;
-  width: 250px;
-  float: left;
   padding-left: 10px;
   text-overflow: clip;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
 }
+/*
 #notification .message:before {
   content: '';
   width: 100%;
@@ -75,6 +78,7 @@ a {
   left: 0;
   top: 0;
 }
+*/
 #notification .message.onlyTitle h2 {
   padding: 30px;
 }
