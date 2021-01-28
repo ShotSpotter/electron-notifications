@@ -1,5 +1,5 @@
 {
-  "name": "electron-notifications",
+  "name": "@sst-inc/electron-notifications",
   "version": "1.0.0",
   "description": "A node module for sending notifications in electron applications",
   "main": "index.js",
